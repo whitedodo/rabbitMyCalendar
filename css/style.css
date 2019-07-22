@@ -1,0 +1,467 @@
+/*
+  Subject: Calendar Project
+  Create Date: 2019-07-10
+  File: style.css
+  Author: Dodo
+  E mail: rabbit.white@daum.net
+          (jungwy@kumoh.ac.kr)
+  Description:
+  1. 2019-07-23 / CSS3 작업 및 W3C 표준화 작업/ Dodo / rabbit.white at daum dot net
+  
+*/
+h3{
+  text-align:left;
+}
+
+a:link { color: red; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: blue; text-decoration: underline;}
+
+#table{
+  width:100%;
+  border-top:1px solid #e2e2e2;
+  border-left:1px solid #e2e2e2;
+  border-right:1px solid #e2e2e2;
+  border-bottom:1px solid #e2e2e2;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.table_write{
+  width:100%;
+  border-top:1px solid #f2f2f2;
+  border-left:1px solid #f2f2f2;
+  border-right:1px solid #f2f2f2;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+/* read */
+
+.td_read_num_theme{
+  background-color:#FAFAFA;
+  border-bottom:1px solid #f2f2f2;
+  width:10%;
+  text-align:center;
+}
+
+.txt_read_num{
+  width:30%;
+  text-align:center;
+}
+
+.td_read_subject_theme{
+  background-color:#FAFAFA;
+  border-bottom:1px solid #f2f2f2;
+  width:10%;
+  text-align:center;
+}
+
+.txt_read_subject{
+  text-align:center;
+}
+
+.td_read_startDate_theme{
+  background-color:#FAFAFA;
+  border-bottom:1px solid #f2f2f2;
+  width:20%;
+  text-align:center;
+}
+
+.txt_read_startDate{
+  text-align:center;
+}
+
+.td_read_endDate_theme{
+  background-color:#FAFAFA;
+  border-bottom:1px solid #f2f2f2;
+  width:20%;
+  text-align:center;
+}
+
+.txt_read_endDate{
+  text-align:center;
+}
+
+.td_read_memo_theme{
+  background-color:#FAFAFA;
+  border-bottom:1px solid #f2f2f2;
+  text-align:left;
+}
+
+.td_read_regiDate_theme{
+  background-color:#FAFAFA;
+  border-bottom:1px solid #f2f2f2;
+  width:10%;
+  text-align:center;
+}
+
+.txt_read_regidate{
+  width:70%;
+  text-align:center;
+}
+
+.td_read_func_theme{
+  background-color:#FAFAFA;
+  border-bottom:1px solid #f2f2f2;
+  width:10%;
+  text-align:center;
+}
+
+/* list */
+
+.td_list_day_title_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+.td_list_title_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+.td_list_memo_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+
+/* write */
+.td_write_startYear_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_write_startMonth_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_write_startDay_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+.td_write_startHour_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_write_startMin_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+
+.td_write_endYear_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_write_endMonth_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_write_endDay_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+.td_write_endHour_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_write_endMin_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+.txt_write_txtDate{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+
+.td_write_subject_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.txt_write_txtSubject{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+.td_write_contents_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.txt_write_txtContents{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+.td_write_passwd1_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.txt_write_txtPasswd1{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+.td_write_passwd2_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.txt_write_txtPasswd2{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+.txt_write_submit{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:60px;
+  text-align:center;
+}
+
+.btn_write_submit{
+  font-size:13px;
+  width:100%;
+  height:100%;
+  border:1px solid #f2f2f2;
+  background-color:#A9E2F3;
+}
+
+/* modify */
+.td_modify_startYear_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_modify_startMonth_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_modify_startDay_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+.td_modify_startHour_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_modify_startMin_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+
+.td_modify_endYear_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_modify_endMonth_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_modify_endDay_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+.td_modify_endHour_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.td_modify_endMin_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+
+.txt_modify_txtDate{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+
+.td_modify_subject_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.txt_modify_txtSubject{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+.td_modify_contents_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.txt_modify_txtContents{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+.td_modify_passwd1_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  height:50px;
+  text-align:center;
+}
+.txt_modify_txtPasswd1{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+.txt_modify_submit{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:60px;
+  text-align:center;
+}
+
+.btn_modify_submit{
+  font-size:13px;
+  width:100%;
+  height:100%;
+  border:1px solid #f2f2f2;
+  background-color:#A9E2F3;
+}
+/* remove */
+.td_remove_passwd1_theme{
+  border:1px solid #f2f2f2;
+  background-color:#FAFAFA;
+  width:10%;
+  height:25px;
+}
+.txt_remove_txtPasswd1{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:50px;
+  text-align:center;
+}
+
+.td_remove_submit{
+  border:1px solid #f2f2f2;
+  background-color:#FFF;
+  height:60px;
+  text-align:center;
+}
+
+.txt_remove_submit{
+  font-size:13px;
+  width:100%;
+  height:100%;
+  border:1px solid #f2f2f2;
+  background-color:#A9E2F3;
+}
+
+#btn_prev{
+  font-size:13px;
+  text-align:left;
+}
+
+#btn_next{
+  font-size:13px;
+  text-align:right;
+}
+
+#btn_link{
+  font-size:13px;
+}
+
+.content_Black {
+  color: #000000;
+  font-size:13px;
+/*  background-color: yellow; */
+}
+
+.content_Write_Black{
+  color: #000000;
+  font-size:13px;
+  height:10px;
+/*  background-color: yellow; */
+}
+
+.content_Blue {
+  color: #0000FF;
+  font-size:13px;
+  height:13px;
+}
+.content_Red {
+  color: #FF0000;
+  font-size:13px;
+  height:13px;
+}
+
+#content_Right {
+  font-size:12px;
+  background-color:#e2e2e2;
+}
+
+.time_font{
+  font-family: "Nanum Gothic", sans-serif;
+  font-size:12px;
+  margin-right:10px;
+}

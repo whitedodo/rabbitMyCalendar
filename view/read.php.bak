@@ -1,0 +1,76 @@
+
+<!-- 제목 -->
+<table id="table_write" width='100%' height='15px' cellpadding='0' cellspacing='1'>
+  <tr>
+    <td width="5%" height="5" align="center" bgcolor="#F5F5F5">
+      <div id="content_Black">번호(ID)</div>
+    </td>
+    <td align="center" bgcolor="#FFFFFF">
+      <div id="content_Black">1</div>
+    </td>
+    <td width="5%" align="center" bgcolor="#F5F5F5">
+      <div id="content_Black">제목(Subject)</div>
+    </td>    
+    <td align="center" bgcolor="#FFFFFF">
+      <div id="content_Black">안녕하세요.</div>
+    </td>
+  </tr>
+</table>
+
+<!-- 시작, 종료일자 -->
+<table id="table_write" width='100%' height='15px' cellpadding='0' cellspacing='1'>
+  <tr>
+    <td width="20%" align="center" bgcolor="#F5F5F5">
+      <div id="content_Black">시작년월일 - (시간, 분)<br>
+      Start Date(Year, Month, Day, Hour, Miniute)</div>
+    </td>
+    <td width="30%" align="center" bgcolor="#FFFFFF">
+      <div id="content_Black">2019-11-11 11:11:11</div>
+    </td>    
+    <td width="20%" align="center" bgcolor="#F5F5F5">
+      <div id="content_Black">종료년월일 - (시간, 분)<br>
+      End Date(Year, Month, Day, Hour, Miniute)</div>
+    </td>    
+    <td width="30%" align="center" bgcolor="#FFFFFF">
+      <div id="content_Black">2019-11-11 11:11:11</div>
+    </td> 
+  </tr>
+</table>
+
+<!-- 내용 -->
+<table id="table_write" width='100%' cellpadding='0' cellspacing='1'>
+  <tr>
+    <td align="center" bgcolor="#F5F5F5">
+      <div id="content_Black">내용<br>
+      (Contents)</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:10px;">
+      <div id="content_Black">
+        안녕하세요. 내용입력중입니다.
+      </div>
+    </td>
+  </tr>
+</table>
+
+<!-- 등록일자 및 기능 -->
+<table id="table_write" width='100%' cellpadding='0' cellspacing='1'>
+    <td align="center" bgcolor="#F5F5F5">
+      <div id="content_Black">등록일자<br>
+      (Regidate)</div>
+    </td>
+    <td height="10" align="center" bgcolor="#FFFFFF">
+      <div id="content_Black">2019-11-11 11:11:11</div>
+    </td>
+        
+    <td align="center" bgcolor="#F5F5F5">
+      <div id="content_Black">기능<br>
+      (Function)</div>
+    </td>
+    <td height="10" align="center" bgcolor="#FFFFFF">
+      <div id="content_Black">수정(Modify)<br>
+      삭제(Remove)</div>
+    </td>
+  </tr>
+</table>
